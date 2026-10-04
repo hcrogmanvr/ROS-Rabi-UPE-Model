@@ -1,0 +1,6 @@
+# Packages explicitly named in the manuscript.
+# Replace these unpinned entries with the exact versions used for the published calculations.
+numpy
+scipy
+pandas
+matplotlib

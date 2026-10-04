@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the manuscript and any archived release DOI associated with this project."
+title: "ROS-Rabi-UPE Model"
+type: software
+authors:
+  - family-names: Crogman
+    given-names: Horace T.
+  - family-names: Alvarez
+    given-names: Gisela
+  - family-names: Clement
+    given-names: Peace U.
+  - family-names: Sonawane
+    given-names: Rohan B.
+  - family-names: Chidananda
+    given-names: Rakshitha
+  - family-names: Khan
+    given-names: Huzaif
+  - family-names: Eshun
+    given-names: Kwame
+  - family-names: Nabirahni
+    given-names: Hana
+  - family-names: Rojas
+    given-names: Lizeth
+  - family-names: Joseph
+    given-names: Eugene
+  - family-names: Erenso
+    given-names: Daniel B.
+version: 0.1.0
+date-released: 2026-10-03
