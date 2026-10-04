@@ -1,0 +1,8 @@
+name,center_nm,lo_nm,hi_nm,reaction_order,prior_weight,lifetime_us,evidence
+Linoleic/triplet-carbonyl-like,475.0,450.0,490.0,1.0,0.23,20.0,Tsuchida 2020 peak/range
+Protein/elastin-like,525.0,500.0,560.0,1.0,0.13,20.0,Tsuchida 2020 peak/range
+Phospholipid-like,570.0,530.0,600.0,1.2,0.25,20.0,Tsuchida 2020 peak/range
+Linolenic-like,575.0,550.0,620.0,1.5,0.15,20.0,Tsuchida 2020 peak/range
+Singlet oxygen dimol 634 nm,634.0,630.0,638.0,2.0,0.11,3.09,Lengfelder/Cadenas/Sies 1983
+Singlet oxygen dimol 703 nm,703.0,698.0,708.0,2.0,0.08,3.09,Lengfelder/Cadenas/Sies 1983
+Singlet oxygen monomol 1270 nm,1270.0,1260.0,1280.0,2.0,0.05,3.09,Lengfelder/Cadenas/Sies 1983

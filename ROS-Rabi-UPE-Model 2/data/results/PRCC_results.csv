@@ -1,0 +1,21 @@
+Parameter,PRCC,Output
+ROS_fold_Sepsis,0.9588539521607642,Sepsis peak UPE
+gain,0.7687017929103035,Sepsis peak UPE
+K_sat,-0.8360604352119889,Sepsis peak UPE
+k_se,0.8399542240378192,Sepsis peak UPE
+delta_re,-0.8312557432055563,Sepsis peak UPE
+k_f,0.6594246719437856,Sepsis peak UPE
+delta_c,-0.6406839583197459,Sepsis peak UPE
+order_shift,-0.6132782623429627,Sepsis peak UPE
+rise_h,0.11178393570144986,Sepsis peak UPE
+decay_h,-0.005568117896990189,Sepsis peak UPE
+ROS_fold_Sepsis,0.9034343301976875,Sepsis spectral centroid
+gain,0.22090141855570297,Sepsis spectral centroid
+K_sat,-0.6692469139432496,Sepsis spectral centroid
+k_se,0.7246645649862916,Sepsis spectral centroid
+delta_re,-0.6961555397182396,Sepsis spectral centroid
+k_f,0.22140381280624674,Sepsis spectral centroid
+delta_c,-0.08833326785328302,Sepsis spectral centroid
+order_shift,-0.12353676025591992,Sepsis spectral centroid
+rise_h,0.07817991835653988,Sepsis spectral centroid
+decay_h,-0.12479170497737102,Sepsis spectral centroid

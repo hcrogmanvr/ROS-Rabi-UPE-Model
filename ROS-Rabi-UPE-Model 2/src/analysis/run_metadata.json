@@ -1,0 +1,55 @@
+{
+  "random_seed": 20260730,
+  "direct_clinical_ROS_folds": {
+    "Healthy": 1.0,
+    "COVID-19": 9.006535947712418,
+    "Sepsis": 13.856209150326798
+  },
+  "microscopic_external_prior": {
+    "V_cm-1": 330.0,
+    "V_eV": 0.04091478513977806,
+    "Omega_Rabi_s-1": 124321002409240.97,
+    "Rabi_period_fs": 50.54001484396451,
+    "lambda_cm-1": 8070.0,
+    "lambda_eV": 1.0005524729636635,
+    "caution": "DNA electron-transfer prior; not measured for infection-associated lipid/protein oxidation."
+  },
+  "nominal_shared_pump_parameters": {
+    "gain": 31.622776601683793,
+    "K_sat": 199.52623149688787,
+    "order_shift": 0.6
+  },
+  "nominal_DPI_PMA_peak_ratio_at_residual_0.5": 0.4481816187499495,
+  "effective_DPI_residual_drive_for_ratio_0.45": 0.5,
+  "uncertainty_samples": 250,
+  "fraction_uncertainty_draws_in_reported_DPI_ratio_interval": 0.192,
+  "sobol_base_sample_size": 128,
+  "cross_system_compatibility": [
+    {
+      "Mapping": "PMA-constrained shared mapping",
+      "gain": 31.622776601683793,
+      "K_sat": 199.52623149688787,
+      "order_shift": 0.6,
+      "DPI ratio at 50% residual drive": 0.4477376734835469,
+      "Residual drive required for ratio 0.45": 0.5016265664160402,
+      "COVID peak fold": 42.205849394573065,
+      "Sepsis peak fold": 89.02028101392743,
+      "COVID AUC fold": 41.97106309604031,
+      "Sepsis AUC fold": 88.54559721236764
+    },
+    {
+      "Mapping": "Disease-saturating mapping",
+      "gain": 1.7782794100389228,
+      "K_sat": 1.0,
+      "order_shift": 0.4,
+      "DPI ratio at 50% residual drive": 0.993937101102316,
+      "Residual drive required for ratio 0.45": 0.019022556390977448,
+      "COVID peak fold": 1.44491003612719,
+      "Sepsis peak fold": 1.4496745737199466,
+      "COVID AUC fold": 1.710498663153751,
+      "Sepsis AUC fold": 1.7380341801904775
+    }
+  ],
+  "recommended_interpretation": "Do not claim a universal parameter set. Report PMA-constrained and disease-saturating mappings as structural alternatives.",
+  "file_naming_note": "Files beginning PMA_constrained use the mapping calibrated to the Burgos detector-band perturbation. Disease-saturating outputs are separate structural alternatives."
+}
